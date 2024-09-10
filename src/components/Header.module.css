@@ -1,51 +1,84 @@
+/* Header styling */
 .header {
-    background-color: #282c34;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-  }
+  background: linear-gradient(90deg, #928101, #2c2d00); /* Updated to yellow gradient */
   
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .header h1,
-  .header h2,
-  .header p {
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  height: 100vh; /* Full screen height for the header */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for content centering */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Navigation bar styling */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Add spacing between bookmarks */
+}
+
+/* Navigation links */
+.nav a {
+  padding: 10px 20px;
+  border-radius: 25px; /* Rounded corners */
+  background-color: #201d01; /* Dark background for contrast with yellow */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Navigation hover effect */
+.nav a:hover {
+  background-color: #272801; /* Slightly lighter hover color */
+}
+
+/* Text animations */
+.header h1,
+.header h2,
+.header p {
+  opacity: 0;
+  color: white;
+}
+
+.animate h1 {
+  animation: fadeIn 2s forwards;
+}
+
+.animate h2 {
+  animation: slideIn 1.5s forwards 1s;
+}
+
+.animate p {
+  animation: fadeIn 2s forwards 1.5s;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
     opacity: 0;
-    color: white;
   }
-  
-  .animate h1 {
-    animation: fadeIn 2s forwards;
+  to {
+    opacity: 1;
   }
-  
-  .animate h2 {
-    animation: slideIn 1.5s forwards 1s;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
   }
-  
-  .animate p {
-    animation: fadeIn 2s forwards 1.5s;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes slideIn {
-    from {
-      transform: translateY(-50px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
+}

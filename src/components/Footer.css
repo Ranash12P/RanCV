@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+    background: linear-gradient(90deg, #b29e00, #bfc115); /* Match background to your website */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #dddddd; /* Slight color change on hover */
+  }
+  
+  .footer-links span {
+    margin: 0 5px;
+    color: white; /* The "|" separator between the links */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  

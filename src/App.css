@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(90deg, #b29e00, #bfc115); /* Updated to yellow gradient */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,3 +12,53 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body {
+  background: linear-gradient(90deg, #333, #444); /* Dark gradient background */
+  color: white; /* White text for contrast */
+  font-family: 'Arial', sans-serif; /* Clean font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content container */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for centering */
+  text-align: center; /* Center align text */
+  padding: 20px;
+}
+
+/* Large heading */
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  color: #fff; /* White text for title */
+}
+
+/* Subheading */
+h2 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+  font-weight: normal;
+  color: #f0e14a; /* Golden yellow for subheadings */
+}
+
+/* Paragraph text */
+p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+/* Apply to all main sections */
+.projects, .skills, .contact, .general {
+  background: linear-gradient(90deg, #b29e00, #bfc115); /* Same as main page background */
+  color: white;
+  padding: 40px 20px;
+}
+
+

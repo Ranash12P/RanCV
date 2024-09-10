@@ -5,7 +5,6 @@ const Home = () => (
   <div>
     <Header />
     <main>
-      {/* Removed the ResumeSection component */}
     </main>
   </div>
 );

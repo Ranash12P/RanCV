@@ -27,6 +27,21 @@ const Skills = () => (
         <li className={styles.skillItem}>
           <strong>Human Skills:</strong> a team player with excellent communication skills, attention to details, and the ability to prioritize tasks effectively.
         </li>
+        <li className={styles.skillItem}>
+          <strong>Cloud Platforms:</strong> experience with AWS, Google Cloud, and Azure.
+        </li>
+        <li className={styles.skillItem}>
+          <strong>Version Control:</strong> skilled in Git and GitHub for version control and collaboration.
+        </li>
+        <li className={styles.skillItem}>
+          <strong>Agile Methodologies:</strong> experienced in Scrum and Kanban for project management.
+        </li>
+        <li className={styles.skillItem}>
+          <strong>API Development:</strong> proficient in building and consuming RESTful APIs.
+        </li>
+        <li className={styles.skillItem}>
+          <strong>Cybersecurity:</strong> basic knowledge of network security principles and data protection.
+        </li>
       </ul>
     </div>
   </section>

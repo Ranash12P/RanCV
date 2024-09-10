@@ -19,15 +19,26 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <h1>Ran Polac</h1>
-        <h2>B.Sc Information Systems Engineering Student</h2>
-        <p>
-        Hey there! I'm Ran, a motivated student who is highly passionate about technology and programming .
-        Team player with a can-do attitude, proficient in Python, Excel, SQL, and PowerBI.
-        <p>
-        With experience in leading teams and delivering under pressure,
-        I am Eager to explore new fields and enhance existing skills. Ready to prove myself in the next step of my life.</p>
-        </p>
-        <p>Seeking any positions in related fields, available 5 days a week.</p>
+        <h2 style={{ color: 'yellow' }}>B.Sc Information Systems Engineering</h2>
+        <h3>
+        Hey there! I'm Ran, a dedicated and enthusiastic person with a strong passion for technology and problem-solving. I have a solid background in customer service and management, where I honed my leadership, communication, and multitasking skills.
+
+        <h3>
+          <h3>
+          I’m proficient in Python, SQL, Excel, and PowerBI, 
+          and I’m always eager to learn and grow. My experience has taught me how to handle 
+          pressure and deliver results while maintaining a focus on efficiency and teamwork.
+
+          </h3>
+          In information systems roles, I’m committed to improving processes, 
+          making data-driven decisions, and bridging the gap between technology and business needs.
+           I bring both technical skills and the customer needs to everything I do.
+          </h3>
+        </h3>
+        <h3>Ready to take the next step in my career and contribute to the success of a great team.
+        </h3>
+        <h3>Seeking any positions in related fields, available 5 days a week.</h3>
+
       </div>
     </header>
   );
