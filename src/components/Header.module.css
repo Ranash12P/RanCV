@@ -1,6 +1,6 @@
 /* Header styling */
 .header {
-  background: linear-gradient(90deg, #928101, #2c2d00); /* Updated to yellow gradient */
+  background: linear-gradient(90deg, #928101, #000000); /* Updated to yellow gradient */
   
   color: white;
   padding: 40px 20px;
@@ -29,7 +29,7 @@
 .nav a {
   padding: 10px 20px;
   border-radius: 25px; /* Rounded corners */
-  background-color: #201d01; /* Dark background for contrast with yellow */
+  background-color: #070700; /* Dark background for contrast with yellow */
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -38,7 +38,7 @@
 
 /* Navigation hover effect */
 .nav a:hover {
-  background-color: #272801; /* Slightly lighter hover color */
+  background-color: #0b0b00; /* Slightly lighter hover color */
 }
 
 /* Text animations */

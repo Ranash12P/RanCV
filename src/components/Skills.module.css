@@ -1,5 +1,5 @@
 .skills {
-  background-color: #282c34;
+  background: linear-gradient(90deg, #928101, #000000); /* Updated to yellow gradient */
   padding: 40px 20px;
   text-align: center;
   color: rgb(202, 201, 201);

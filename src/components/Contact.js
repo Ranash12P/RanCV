@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Contact.module.css';
-import profilePicture from '../ran_army.jpeg'; // Adjusted path to src folder
+import profilePicture from '../pic2i.jpg'; // Adjusted path to src folder
 import { FaLinkedin, FaEnvelope, FaWhatsapp, FaPhoneAlt } from 'react-icons/fa'; // Import icons
 
 const Contact = () => (

@@ -3,7 +3,7 @@
 .general {
     padding: 40px 20px;
     text-align: center;
-    background-color: #282c34;
+    background: linear-gradient(90deg, #928101, #000000); /* Updated to yellow gradient */
 }
 
 .general h2 {

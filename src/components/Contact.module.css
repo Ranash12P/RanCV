@@ -1,7 +1,7 @@
 /* Contact.module.css */
 
 .contact {
-  background-color: #454c59;
+  background: linear-gradient(90deg, #928101, #000000); /* Updated to yellow gradient */
   padding: 40px 20px;
   text-align: center;
   min-height: 100vh; /* Full height */

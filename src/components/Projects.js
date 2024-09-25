@@ -16,19 +16,29 @@ const Projects = () => (
       <div className={styles.project}>
         <h3>Online Book Club</h3>
         <p>Built a client-server application using Node.js, React, and MongoDB. The platform allows users to track their reading habits, create book clubs, and leave reviews for their favorite books.</p>
+        <a href="https://bookclubclient.vercel.app" target="_blank" rel="noopener noreferrer">
+        View Websie
+  </a>
       </div>
 
-      {/* BTS - Blockchain Trading System */}
-      <div className={styles.project}>
-        <h3>BTS - Blockchain Trading System</h3>
-        <p>Developed a cryptocurrency trading system using React and integrated real-time charts via TradingView.</p>
-      </div>
+     {/* BTS - Blockchain Trading System */}
+<div className={styles.project}>
+  <h3>BTS - Blockchain Trading System</h3>
+  <p>Developed a cryptocurrency trading system using React and integrated real-time charts via TradingView.</p>
+  <a href="https://ranash12p.github.io/crypto-demo-ran/" target="_blank" rel="noopener noreferrer">
+    View Project
+  </a>
+</div>
 
-      {/* Personal Website Using React */}
-      <div className={styles.project}>
-        <h3>Personal Website Using React</h3>
-        <p>Developed a personal portfolio website showcasing projects, skills, and contact information. The website is responsive and optimized for performance and SEO.</p>
-      </div>
+  {/* Personal Website Using React */}
+<div className={styles.project}>
+  <h3>Personal Website Using React</h3>
+  <p>Developed a personal portfolio website showcasing projects, skills, and contact information. The website is responsive and optimized for performance and SEO.</p>
+  <a href="https://ranash12p.github.io/RanCV/#/" target="_blank" rel="noopener noreferrer">
+    View Personal Website
+  </a>
+</div>
+
 
       {/* Real-Time Programming Game */}
       <div className={styles.project}>
@@ -48,11 +58,16 @@ const Projects = () => (
         <p>Programmed a user-friendly shell menu interface for restaurant operations, streamlining order management and leveraging ADT and file storage systems.</p>
       </div>
 
-      {/* Udemy Courses */}
-      <div className={styles.project}>
-        <h3>Udemy Courses</h3>
-        <p>Completed self-learning courses to enhance skills in Excel, Power BI, Python, and other key technologies for software development and data analysis.</p>
-      </div>
+    {/* Udemy Courses */}
+<div className={styles.project}>
+  <h3>Udemy Courses</h3>
+  <p>Completed self-paced courses to enhance skills in Excel, Power BI, Python, and other key technologies for software development and data analysis.</p>
+  <ul>
+    <li>Excel: Advanced techniques for data analysis and automation using VBA.</li>
+    <li>Power BI: Created interactive dashboards and reports for data visualization.</li>
+    <li>Python: Developed scripts for automation and data processing, including libraries like pandas and NumPy.</li>
+  </ul>
+</div>
 
     </div>
   </section>

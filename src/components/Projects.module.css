@@ -1,6 +1,6 @@
 .projects {
   padding: 40px 20px;
-  background-color: #282c34;
+  background: linear-gradient(90deg, #928101, #000000); /* Updated to yellow gradient */
 }
 
 .projects h2 {
@@ -53,6 +53,17 @@
   color: white;
 }
 
+.projects .project ul {
+  padding-left: 20px; /* Add padding for the bullet points */
+  list-style-type: disc; /* Use disc bullets */
+  margin-top: 10px; /* Add space above the list */
+  line-height: 1.6; /* Adjust line height for better readability */
+  color: white;
+}
+
+.projects .project li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
 
 .projects .project a {
   color: #61dafb;
