@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RanCV/static/css/main.1c312e91.css",
-    "main.js": "/RanCV/static/js/main.707af477.js",
+    "main.css": "/RanCV/static/css/main.54c0761d.css",
+    "main.js": "/RanCV/static/js/main.b6b62772.js",
     "static/js/453.a3ba6d2e.chunk.js": "/RanCV/static/js/453.a3ba6d2e.chunk.js",
-    "static/media/ran_army.jpeg": "/RanCV/static/media/ran_army.8b1576a42e888d67733f.jpeg",
+    "static/media/pic2i.jpg": "/RanCV/static/media/pic2i.191c19ebf3efe32c9211.jpg",
     "index.html": "/RanCV/index.html",
-    "main.1c312e91.css.map": "/RanCV/static/css/main.1c312e91.css.map",
-    "main.707af477.js.map": "/RanCV/static/js/main.707af477.js.map",
+    "main.54c0761d.css.map": "/RanCV/static/css/main.54c0761d.css.map",
+    "main.b6b62772.js.map": "/RanCV/static/js/main.b6b62772.js.map",
     "453.a3ba6d2e.chunk.js.map": "/RanCV/static/js/453.a3ba6d2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c312e91.css",
-    "static/js/main.707af477.js"
+    "static/css/main.54c0761d.css",
+    "static/js/main.b6b62772.js"
   ]
 }
