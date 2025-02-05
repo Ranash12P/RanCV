@@ -1,0 +1,75 @@
+.projects {
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #928101, #000000); /* Updated to yellow gradient */
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.projects .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .projectLink {
+  width: 100%;
+  max-width: 600px;
+  text-decoration: none; /* Remove underline from the link */
+  color: inherit; /* Inherit the current text color */
+}
+
+.projects .project {
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects .project:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.projects .project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.projects .project p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.projects .project ul {
+  padding-left: 20px; /* Add padding for the bullet points */
+  list-style-type: disc; /* Use disc bullets */
+  margin-top: 10px; /* Add space above the list */
+  line-height: 1.6; /* Adjust line height for better readability */
+  color: white;
+}
+
+.projects .project li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.projects .project a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.projects .project a:hover {
+  text-decoration: underline;
+}
